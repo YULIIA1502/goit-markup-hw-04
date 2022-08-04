@@ -132,7 +132,7 @@ body {
 
 .header-info-link {
     display: flex;
-    align-items:baseline;
+    align-items: center;
     padding: 32px 0;
     font-weight: 500;
     font-size: 14px;
@@ -155,6 +155,7 @@ body {
 
 /*-------------------------------------HERO------------------------------*/
 .hero{
+    margin: 0 auto;
     height: 600px;
     max-width: 1600px;
     background: var(--hero-backgroud-color);
@@ -264,6 +265,12 @@ body {
 .team{
     background: var(--our-team-background-color);
 }
+.team-foto{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .team-title{
     text-align: center;
     font-weight: 700;
@@ -356,6 +363,7 @@ body {
     justify-content: center;
     width: 170px;
     height: 92px;
+    outline: transparent;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     color: #AFB1B8;
@@ -380,7 +388,6 @@ body {
 .footer-conteiner{
     display: flex;
     align-items:baseline;
-
 }
 
 
@@ -428,7 +435,7 @@ body {
 }
 
 .strong-title-wraper{
-    padding-left: 70px;
+    margin-left: 70px;
 }
 
 .strong-title{
@@ -461,16 +468,15 @@ body {
     height: 44px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
-    color: #AFB1B8;
+    color:#FFFFFF;
 }
-.icon-profile{
-    fill:currentColor;
+.footer-icon-profile{
+    fill: currentColor;
 }
 
 .footer-link-profile:hover, 
 .footer-link-profile:focus{
     background-color: var(--active-color);
-    color:#FFFFFF;
 }
 
 
